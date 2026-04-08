@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=Tajawal:wght@400;700;900&display=swap');
+
+:root {
+  --primary-red: #da291c; /* A strong news red */
+  --dark-charcoal: #2a2a2a;
+  --light-gray: #f8f9fa;
+  --medium-gray: #e9ecef;
+  --text-dark: #212529;
+  --text-muted: #6c757d;
+  --text-light: #ffffff;
+  --link-color: #0056b3;
+  --border-color: #dee2e6;
+  
+  --font-primary: 'Cairo', sans-serif;
+  --font-secondary: 'Tajawal', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  direction: rtl;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--light-gray);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--primary-red);
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
