@@ -10,7 +10,7 @@ const Header = () => {
                 <div className="container header-container">
                     <div className="header-logo">
                         <Link to="/">
-                            <span className="logo-text">صوت الميديا</span>
+                            <span className="logo-text">المنار الدولية </span>
                             <span className="logo-dot">.</span>
                         </Link>
                     </div>
