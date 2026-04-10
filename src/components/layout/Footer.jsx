@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="container">
                 <div className="footer-grid">
                     <div className="footer-about">
-                        <h2 className="footer-logo">صوت الميديا<span>.</span></h2>
+                        <h2 className="footer-logo">المنار الدولية <span>.</span></h2>
                         <p className="footer-desc">
                             موقع إخباري شامل ومستقل يعمل على مدار الساعة. نقدم لك التغطية الأسرع والأكثر مصداقية للأحداث المحلية والعالمية بمهنية وموضوعية.
                         </p>
