@@ -21,7 +21,7 @@ const AdminLayout = () => {
             {/* Sidebar */}
             <aside className="admin-sidebar">
                 <div className="admin-logo">
-                    <h2>صوت الميديا<span>.</span></h2>
+                    <h2>المنار الدولية <span>.</span></h2>
                     <p>لوحة التحكم</p>
                 </div>
 
